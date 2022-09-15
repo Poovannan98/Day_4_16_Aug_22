@@ -16,5 +16,6 @@ countries.onload = function DisplayResult(){
         console.log("Name:",+index+1,result[index].name.common);
         console.log("Region:",+index+1,result[index].region);
         console.log("Sub-Region:",+index+1,result[index].subregion);
+        console.log("Population:",+index+1,result[index].population);
     }
 }
